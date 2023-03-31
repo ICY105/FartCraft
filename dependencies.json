@@ -1,0 +1,78 @@
+{
+  "namespaces": [
+    "fartcraft",
+    "minecraft"
+  ],
+  "dependencies": [
+    {
+      "name": "Lantern Load",
+      "url": "https://github.com/LanternMC/load"
+    },
+    {
+      "name": "Block Utils",
+      "local": "BlockUtils"
+    },
+    {
+      "name": "NBT Smelting",
+      "local": "NBTSmelting"
+    },
+    {
+      "name": "Datapack Energy",
+      "local": "DatapackEnergy"
+    },
+    {
+      "name": "Smithed Crafting",
+      "local": "external-libraries/crafter"
+    },
+    {
+      "name": "Smithed Custom Block",
+      "local": "external-libraries/custom-block"
+    }
+  ],
+  "append_function_tags": [
+    {
+      "tag": "load:load",
+      "value": "fartcraft:load"
+    },
+	{
+      "tag": "smithed.crafter:event/recipes",
+      "value": "fartcraft:recipes/shaped"
+    },
+	{
+      "tag": "smithed.crafter:event/shapeless_recipes",
+      "value": "fartcraft:recipes/shapeless"
+    }
+	{
+      "tag": "nbt_smelting:v1/furnace",
+      "value": "fartcraft:recipes/smelting"
+    },
+	{
+      "tag": "nbt_smelting:v1/blast_furnace",
+      "value": "fartcraft:recipes/smelting"
+    },
+	{
+      "tag": "energy:v1/energy_update",
+      "value": "fartcraft:blocks/energy_update"
+    },
+	{
+      "tag": "energy:v1/cable_update",
+      "value": "fartcraft:blocks/cable/update"
+    },
+	{
+      "tag": "energy:v1/update_energy_item",
+      "value": "fartcraft:items/update_energy_item"
+    },
+	{
+      "tag": "energy:v1/cable_can_connect",
+      "value": "fartcraft:blocks/cable_can_connect"
+    },
+	{
+      "tag": "smithed.crafter:event/break",
+      "value": "fartcraft:blocks/turd_crafting_table/break"
+    },
+	{
+      "tag": "smithed.custom_block:event/on_place",
+      "value": "fartcraft:blocks/place"
+    },
+  ]
+}
