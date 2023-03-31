@@ -1,5 +1,6 @@
 {
-    "values": [
-        "#load:_private/load"
-    ]
+  "values": [
+    "smithed.custom_block:init_expressions",
+    "#load:_private/load"
+  ]
 }

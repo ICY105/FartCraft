@@ -22,11 +22,11 @@
     },
     {
       "name": "Smithed Crafting",
-      "local": "external-libraries/crafter"
+      "local": "external-libraries/Smithed Crafter.zip"
     },
     {
       "name": "Smithed Custom Block",
-      "local": "external-libraries/custom-block"
+      "local": "external-libraries/Smithed Custom Block.zip"
     }
   ],
   "append_function_tags": [
@@ -41,7 +41,7 @@
 	{
       "tag": "smithed.crafter:event/shapeless_recipes",
       "value": "fartcraft:recipes/shapeless"
-    }
+    },
 	{
       "tag": "nbt_smelting:v1/furnace",
       "value": "fartcraft:recipes/smelting"
@@ -73,6 +73,6 @@
 	{
       "tag": "smithed.custom_block:event/on_place",
       "value": "fartcraft:blocks/place"
-    },
+    }
   ]
 }
