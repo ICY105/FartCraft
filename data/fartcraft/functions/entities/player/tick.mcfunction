@@ -38,7 +38,3 @@ execute if score @s fartcraft.last_defication matches 7200.. run title @s action
 # throw snowball
 execute if score @s fartcraft.snowball matches 1.. as @e[type=snowball,tag=!fartcraft.checked] run function fartcraft:entities/fart/init_fart_bottle
 execute if score @s fartcraft.snowball matches 1.. run scoreboard players set @s fartcraft.snowball 0
-
-# use COAS items
-execute if score @s fartcraft.coas matches 1.. if data entity @s SelectedItem.tag.fartcraft{id:"pooper_scooper"} run function fartcraft:items/pooper_scooper/use
-execute if score @s fartcraft.coas matches 1.. run scoreboard players set @s fartcraft.coas 0

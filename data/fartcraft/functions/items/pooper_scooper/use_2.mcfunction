@@ -1,4 +1,4 @@
-particle flame
+
 execute as @e[tag=fartcraft.turd,distance=..0.25,limit=1] run function fartcraft:items/pooper_scooper/use_3
 
 execute if score #loop fartcraft.data matches -10 run loot give @s loot fartcraft:turd

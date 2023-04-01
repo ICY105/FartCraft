@@ -8,7 +8,6 @@ scoreboard objectives add fartcraft.last_fart dummy
 scoreboard objectives add fartcraft.last_defication dummy
 
 scoreboard objectives add fartcraft.snowball minecraft.used:minecraft.snowball
-scoreboard objectives add fartcraft.coas minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard players add #cons.seed fartcraft.data 0
 scoreboard players set #cons.-1 fartcraft.data -1

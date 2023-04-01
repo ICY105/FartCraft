@@ -85,6 +85,14 @@
     {
       "tag": "minecraft:load",
       "value": "smithed_u.chunk:load"
+    },
+    {
+      "tag": "player_action:v1/left_click",
+      "value": "fartcraft:entities/player/triggers/left_click"
+    },
+    {
+      "tag": "player_action:v1/right_click",
+      "value": "fartcraft:entities/player/triggers/right_click"
     }
   ]
 }
