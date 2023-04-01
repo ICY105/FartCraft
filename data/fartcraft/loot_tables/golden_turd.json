@@ -10,11 +10,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": { "text": "Fart in a Bottle", "italic": false}
+              "name": {"text": "Golden Turd", "italic": false}
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6420500,fartcraft:{id:\"fart_in_a_bottle\"}}"
+              "tag": "{CustomModelData:6420502,fartcraft:{id:\"golden_turd\"}}"
             }
           ]
         }
