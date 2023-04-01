@@ -21,6 +21,10 @@
       "local": "DatapackEnergy"
     },
     {
+      "name": "Player Action",
+      "local": "PlayerAction"
+    },
+    {
       "name": "Smithed Crafting",
       "local": "external-libraries/Smithed Crafter.zip"
     },

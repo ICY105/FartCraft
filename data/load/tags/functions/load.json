@@ -3,6 +3,7 @@
     "#block_utils:load",
     "#nbt_smelting:load",
     "#energy:load",
+    "#player_action:load",
     "#smithed.crafter:load",
     "#smithed.custom_block:load",
     "fartcraft:load"
