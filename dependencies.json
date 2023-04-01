@@ -68,7 +68,7 @@
     },
 	{
       "tag": "smithed.crafter:event/break",
-      "value": "fartcraft:blocks/turd_crafting_table/break"
+      "value": "fartcraft:blocks/crap_crafter/break"
     },
 	{
       "tag": "smithed.custom_block:event/on_place",

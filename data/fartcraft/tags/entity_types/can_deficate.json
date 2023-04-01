@@ -1,0 +1,29 @@
+{
+	"required":false,
+	"values": [
+		"minecraft:cow",
+		"minecraft:pig",
+		"minecraft:sheep",
+		"minecraft:goat",
+		"minecraft:chicken",
+		"minecraft:donkey",
+		"minecraft:horse",
+		"minecraft:mule",
+		"minecraft:fox",
+		"minecraft:parrot",
+		"minecraft:ocelot",
+		"minecraft:cat",
+		"minecraft:rabbit",
+		"minecraft:villager",
+		"minecraft:dolphin",
+		"minecraft:llama",
+		"minecraft:panda",
+		"minecraft:piglin",
+		"minecraft:polar_bear",
+		"minecraft:trader_llama",
+		"minecraft:wandering_trader",
+		"minecraft:wolf",
+		"minecraft:warden",
+		"minecraft:wither"
+	]
+} 

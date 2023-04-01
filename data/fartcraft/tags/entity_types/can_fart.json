@@ -1,0 +1,27 @@
+{
+	"required":false,
+	"values": [
+		"#fartcraft:can_deficate",
+		"minecraft:zombie",
+		"minecraft:husk",
+		"minecraft:allay",
+		"minecraft:frog",
+		"minecraft:squid",
+		"minecraft:glow_squid",
+		"minecraft:strider",
+		"minecraft:spider",
+		"minecraft:cave_spider",
+		"minecraft:zombified_piglin",
+		"minecraft:blaze",
+		"minecraft:creeper",
+		"minecraft:drowned",
+		"minecraft:evoker",
+		"minecraft:ghast",
+		"minecraft:guardian",
+		"minecraft:hoglin",
+		"minecraft:piglin_brute",
+		"minecraft:pillager",
+		"minecraft:zoglin",
+		"minecraft:zombie_villager"
+	]
+} 
