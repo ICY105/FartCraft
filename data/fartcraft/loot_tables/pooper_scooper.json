@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6420502,fartcraft:{id:\"pooper_scooper\"}}"
+              "tag": "{CustomModelData:6420502,fartcraft:{id:\"pooper_scooper\"},player_action:{click_detection:1b}}"
             }
           ]
         }

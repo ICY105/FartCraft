@@ -25,6 +25,10 @@
       "local": "PlayerAction"
     },
     {
+      "name": "SmithedChunk-Unofficial",
+      "local": "SmithedChunk-Unofficial"
+    },
+    {
       "name": "Smithed Crafting",
       "local": "external-libraries/Smithed Crafter.zip"
     },
