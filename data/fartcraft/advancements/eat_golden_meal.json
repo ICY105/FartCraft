@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": [],
+          "item": {
+            "tag": "fartcraft:golden_meal"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "fartcraft:entities/player/triggers/eat_golden_meal"
+    }
+  }
+  

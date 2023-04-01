@@ -1,0 +1,7 @@
+{
+    "message_id": "failed_to_deficate",
+    "exhaustion": 0,
+    "scaling": "never",
+    "effects": "hurt",
+    "death_message_type": "default"
+  }

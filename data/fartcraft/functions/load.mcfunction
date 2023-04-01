@@ -2,6 +2,7 @@
 schedule function fartcraft:tick 1t replace
 
 scoreboard objectives add fartcraft.data dummy
+scoreboard objectives add fartcraft.food dummy
 scoreboard objectives add fartcraft.last_fart dummy
 scoreboard objectives add fartcraft.last_defication dummy
 
