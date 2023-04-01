@@ -14,5 +14,5 @@ function fartcraft:utils/random
 scoreboard players operation #delay fartcraft.data += #rng.out fartcraft.data
 
 scoreboard players operation @s fartcraft.last_fart = #delay fartcraft.data
-function fartcraft:utils/fart
+function fartcraft:entities/fart/fart
 

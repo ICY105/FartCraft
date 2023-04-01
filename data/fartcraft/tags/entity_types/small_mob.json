@@ -1,0 +1,22 @@
+{
+	"required":false,
+	"values": [
+		"minecraft:allay",
+		"minecraft:frog",
+		"minecraft:squid",
+		"minecraft:glow_squid",
+		"minecraft:spider",
+		"minecraft:cave_spider",
+		"minecraft:guardian",
+		"minecraft:pig",
+		"minecraft:chicken",
+		"minecraft:fox",
+		"minecraft:parrot",
+		"minecraft:ocelot",
+		"minecraft:cat",
+		"minecraft:rabbit",
+		"minecraft:villager",
+		"minecraft:dolphin",
+		"minecraft:wolf"
+	]
+} 
