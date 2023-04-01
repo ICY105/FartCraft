@@ -12,5 +12,5 @@ execute if score #timer.200 fartcraft.data matches 200.. run scoreboard players 
 execute as @a at @s run function fartcraft:entities/player/tick
 
 execute as @e[tag=fartcraft.ticking] at @s run function fartcraft:entities/tick
-execute if score #timer.20 fartcraft.data matches 0 as @e[type=#fartcraft:can_fart] at @s run function fartcraft:entities/process_farting
-execute if score #timer.200 fartcraft.data matches 0 as @e[type=#fartcraft:can_deficate] at @s run function fartcraft:entities/process_defication
+execute if score #timer.20 fartcraft.data matches 0 as @e[type=#fartcraft:can_fart] at @s run function fartcraft:entities/fart/process_farting
+execute if score #timer.200 fartcraft.data matches 0 as @e[type=#fartcraft:can_deficate] at @s run function fartcraft:entities/feces/process_defication
