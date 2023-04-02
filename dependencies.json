@@ -64,7 +64,7 @@
     },
     {
       "tag": "energy:v1/cable_update",
-      "value": "fartcraft:blocks/cable/update"
+      "value": "fartcraft:blocks/fart_pipe/update"
     },
     {
       "tag": "energy:v1/update_energy_item",
