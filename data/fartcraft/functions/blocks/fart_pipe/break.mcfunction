@@ -1,4 +1,5 @@
 
+setblock ~ ~ ~ minecraft:air
 function energy:v1/api/break_cable
 loot spawn ~ ~ ~ loot fartcraft:fart_pipe
 

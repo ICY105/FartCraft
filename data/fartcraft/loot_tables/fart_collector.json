@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "name": "minecraft:furnace",
+          "functions": [
+            {
+			  "function": "minecraft:set_name",
+			  "name": {"translate":"block.fartcraft.fart_collector","italic":false}
+			},
+			{
+			  "function": "minecraft:set_lore",
+			  "lore": [
+				{"translate":"lore.fartcraft.added_by","color":"#663300","italic":false}
+			  ]
+			},
+			{
+              "function": "minecraft:set_nbt",
+              "tag":"{CustomModelData: 6420503, HideFlags: 32, fartcraft:{id:\"fart_collector\"}, BlockEntityTag:{Items:[{id:\"minecraft:stone\", Count:1b, Slot:0b, tag:{smithed:{block:{id:\"fartcraft:fart_collector\"}}}}]}  }"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
