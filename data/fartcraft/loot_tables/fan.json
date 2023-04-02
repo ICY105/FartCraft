@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": { "translate": "item.fartcraft.fan", "italic": false, "color":"white"}
+            },
+			{
+			  "function": "minecraft:set_lore",
+			  "lore": [
+				{"translate":"lore.fartcraft.added_by","color":"#663300","italic":false}
+			  ]
+			},
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6420502,fartcraft:{id:\"fan\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
