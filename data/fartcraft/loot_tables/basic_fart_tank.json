@@ -6,21 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:snowball",
+		  "name": "minecraft:furnace",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": { "text": "Fart in a Bottle", "italic": false}
-            },
+			  "function": "minecraft:set_name",
+			  "name": {"translate":"block.fartcraft.basic_fart_tank","italic":false}
+			},
 			{
 			  "function": "minecraft:set_lore",
 			  "lore": [
 				{"translate":"lore.fartcraft.added_by","color":"#663300","italic":false}
 			  ]
 			},
-            {
+			{
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6420500,fartcraft:{id:\"fart_in_a_bottle\"}}"
+              "tag":"{CustomModelData: 6420500, HideFlags: 32, fartcraft:{id:\"basic_fart_tank\"}, BlockEntityTag:{Items:[{id:\"minecraft:stone\", Count:1b, Slot:0b, tag:{smithed:{block:{id:\"fartcraft:basic_fart_tank\"}}}}]}  }"
             }
           ]
         }

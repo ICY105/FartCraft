@@ -12,6 +12,12 @@
               "function": "minecraft:set_name",
               "name": {"text": "Poopy Boots", "italic": false}
             },
+			{
+			  "function": "minecraft:set_lore",
+			  "lore": [
+				{"translate":"lore.fartcraft.added_by","color":"#663300","italic":false}
+			  ]
+			},
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{color:3549187},fartcraft:{id:\"poopy_boots\"},HideFlags:64}"

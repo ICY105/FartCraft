@@ -10,11 +10,14 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {
-                "text": "Turd",
-                "italic": false
-              }
+              "name": {"text": "Turd", "italic": false}
             },
+			{
+			  "function": "minecraft:set_lore",
+			  "lore": [
+				{"translate":"lore.fartcraft.added_by","color":"#663300","italic":false}
+			  ]
+			},
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:6420501,fartcraft:{id:\"turd\"}}"

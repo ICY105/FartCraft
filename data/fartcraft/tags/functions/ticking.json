@@ -1,0 +1,7 @@
+{
+	"required":false,
+	"values": [
+		"fartcraft:entities/tick",
+		"fartcraft:blocks/tick"
+	]
+} 

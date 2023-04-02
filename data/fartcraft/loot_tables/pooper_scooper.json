@@ -10,11 +10,14 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {
-                "text": "Pooper Scooper",
-                "italic": false
-              }
+              "name": {"text": "Pooper Scooper", "italic": false}
             },
+			{
+			  "function": "minecraft:set_lore",
+			  "lore": [
+				{"translate":"lore.fartcraft.added_by","color":"#663300","italic":false}
+			  ]
+			},
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:6420502,fartcraft:{id:\"pooper_scooper\"},player_action:{click_detection:1b}}"
