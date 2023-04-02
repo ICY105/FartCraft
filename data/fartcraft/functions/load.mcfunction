@@ -23,7 +23,6 @@ scoreboard players set #cons.rng_a fartcraft.data 1103515245
 # Fart Consentrator (makes weaponized farts)
 # Toilet
 # Turd Compactor
-# Crap Crafter
 # Turd Bricks (block)
 
 # Fart Gun

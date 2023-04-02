@@ -75,10 +75,6 @@
       "value": "fartcraft:blocks/cable_can_connect"
     },
     {
-      "tag": "smithed.crafter:event/break",
-      "value": "fartcraft:blocks/crap_crafter/break"
-    },
-    {
       "tag": "smithed.custom_block:event/on_place",
       "value": "fartcraft:blocks/place"
     },
