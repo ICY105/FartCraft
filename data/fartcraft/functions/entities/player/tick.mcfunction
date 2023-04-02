@@ -36,5 +36,9 @@ execute if score @s fartcraft.last_defication matches 6720..7200 run title @s ac
 execute if score @s fartcraft.last_defication matches 7200.. run title @s actionbar [{"text":"Warning, you need to go right now: ","color":"red"},{"text":"\u0010","font":"fartcraft:default","color":"white"}]
 
 # throw snowball
-execute if score @s fartcraft.snowball matches 1.. as @e[type=snowball,tag=!fartcraft.checked] run function fartcraft:entities/fart/init_fart_bottle
+execute if score @s fartcraft.snowball matches 1.. run scoreboard players operation #in.0 fartcraft.data = @s player_action.uuid.0
+execute if score @s fartcraft.snowball matches 1.. run scoreboard players operation #in.1 fartcraft.data = @s player_action.uuid.1
+execute if score @s fartcraft.snowball matches 1.. run scoreboard players operation #in.2 fartcraft.data = @s player_action.uuid.2
+execute if score @s fartcraft.snowball matches 1.. run scoreboard players operation #in.3 fartcraft.data = @s player_action.uuid.3
+execute if score @s fartcraft.snowball matches 1.. as @e[type=snowball,tag=!fartcraft.checked] run function fartcraft:entities/init_snowball
 execute if score @s fartcraft.snowball matches 1.. run scoreboard players set @s fartcraft.snowball 0
