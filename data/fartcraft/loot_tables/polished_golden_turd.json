@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:snowball",
+          "name": "minecraft:command_block",
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {"translate": "item.fartcraft.golden_turd", "italic": false}
+              "name": {"translate": "item.fartcraft.polished_golden_turd", "italic": false}
             },
 			{
 			  "function": "minecraft:set_lore",
@@ -18,9 +18,15 @@
 				{"translate":"lore.fartcraft.added_by","color":"#663300","italic":false}
 			  ]
 			},
+			{
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1
+              }
+            },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6420502,fartcraft:{id:\"golden_turd\"}}"
+              "tag": "{CustomModelData:6420501,HideFlags:1,fartcraft:{id:\"polished_golden_turd\"}}"
             }
           ]
         }

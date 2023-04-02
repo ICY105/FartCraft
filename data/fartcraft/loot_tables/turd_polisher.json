@@ -6,21 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:snowball",
+		  "name": "minecraft:furnace",
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "name": {"translate": "item.fartcraft.golden_turd", "italic": false}
-            },
+			  "function": "minecraft:set_name",
+			  "name": {"translate":"block.fartcraft.turd_polisher","italic":false}
+			},
 			{
 			  "function": "minecraft:set_lore",
 			  "lore": [
 				{"translate":"lore.fartcraft.added_by","color":"#663300","italic":false}
 			  ]
 			},
-            {
+			{
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6420502,fartcraft:{id:\"golden_turd\"}}"
+              "tag":"{CustomModelData: 6420502, HideFlags: 32, fartcraft:{id:\"turd_polisher\"}, BlockEntityTag:{Items:[{id:\"minecraft:stone\", Count:1b, Slot:0b, tag:{smithed:{block:{id:\"fartcraft:turd_polisher\"}}}}]}  }"
             }
           ]
         }

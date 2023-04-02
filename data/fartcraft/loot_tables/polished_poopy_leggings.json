@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_boots",
+          "name": "minecraft:leather_leggings",
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {"translate": "item.fartcraft.poopy_boots", "italic": false}
+              "name": {"translate": "item.fartcraft.polished_poopy_leggings", "italic": false}
             },
 			{
 			  "function": "minecraft:set_lore",
@@ -18,9 +18,15 @@
 				{"translate":"lore.fartcraft.added_by","color":"#663300","italic":false}
 			  ]
 			},
+			{
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 2
+              }
+            },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{color:3549187},fartcraft:{id:\"poopy_boots\"},HideFlags:64}"
+              "tag": "{display:{color:3549187},fartcraft:{id:\"polished_poopy_leggings\"},HideFlags:64,Unbreakable:1b}"
             },
 			{
 			  "function":"set_attributes",
@@ -29,15 +35,15 @@
 				  "name":"generic.armor",
 				  "attribute":"generic.armor",
 				  "operation":"addition",
-				  "amount":3,
-				  "slot":"feet"
+				  "amount":6,
+				  "slot":"legs"
 				},
 				{
 				  "name":"generic.max_health",
 				  "attribute":"generic.max_health",
 				  "operation":"addition",
 				  "amount":-2,
-				  "slot":"feet"
+				  "slot":"legs"
 				}
 			  ]
 			}

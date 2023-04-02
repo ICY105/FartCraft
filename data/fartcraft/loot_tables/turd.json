@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Turd", "italic": false}
+              "name": {"translate": "item.fartcraft.turd", "italic": false}
             },
 			{
 			  "function": "minecraft:set_lore",

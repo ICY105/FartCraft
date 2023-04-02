@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": { "text": "Fart in a Bottle", "italic": false}
+              "name": { "translate": "item.fartcraft.fart_in_a_bottle", "italic": false}
             },
 			{
 			  "function": "minecraft:set_lore",

@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {"text": "Poopy Leggings", "italic": false}
+              "name": {"translate": "item.fartcraft.poopy_leggings", "italic": false}
             },
 			{
 			  "function": "minecraft:set_lore",
