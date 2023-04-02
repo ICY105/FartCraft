@@ -31,5 +31,4 @@ scoreboard players set #cons.rng_a fartcraft.data 1103515245
 # Fart Trap
 # Fartpack
 
-# Poop Armor
 # Turd Brick
