@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Poopy Chestplate", "italic": false}
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:3549187},fartcraft:{id:\"poopy_chestplate\"},HideFlags:64}"
+            },
+			{
+			  "function":"set_attributes",
+			  "modifiers": [
+				{
+				  "name":"generic.armor",
+				  "attribute":"generic.armor",
+				  "operation":"addition",
+				  "amount":8,
+				  "slot":"chest"
+				},
+				{
+				  "name":"generic.max_health",
+				  "attribute":"generic.max_health",
+				  "operation":"addition",
+				  "amount":-2,
+				  "slot":"chest"
+				}
+			  ]
+			}
+          ]
+        }
+      ]
+    }
+  ]
+}
