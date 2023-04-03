@@ -1,0 +1,29 @@
+{
+    "parent": "fartcraft:turd",
+    "display": {
+        "title": {
+            "translate": "advancements.fartcraft.turd_polisher.title"
+        },
+        "description": {
+            "translate": "advancements.fartcraft.turd_polisher.desc"
+        },
+        "icon": {
+            "item": "minecraft:furnace",
+            "nbt": "{CustomModelData:6420502}"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "have_fart_in_a_tobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+					    "id": "minecraft:furnace",
+                        "nbt": "{fartcraft:{id:\"turd_polisher\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

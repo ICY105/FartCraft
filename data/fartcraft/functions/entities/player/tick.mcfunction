@@ -11,6 +11,7 @@ execute if score @s fartcraft.last_defication matches 7500.. run function fartcr
 execute if score @s fartcraft.sneaking matches 1.. unless predicate fartcraft:sneaking run scoreboard players set @s fartcraft.sneaking 0
 execute if predicate fartcraft:sneaking run scoreboard players add @s fartcraft.sneaking 1
 
+execute if score @s fartcraft.last_defication matches 400.. if score @s fartcraft.sneaking matches 8 run advancement grant @s only fartcraft:player_fart
 execute if score @s fartcraft.last_defication matches 400.. if score @s fartcraft.sneaking matches 8 run function fartcraft:entities/fart/fart
 execute if score @s fartcraft.last_defication matches 400.. if score @s fartcraft.sneaking matches 8 run scoreboard players remove @s fartcraft.food 100
 execute if score @s fartcraft.last_defication matches 400.. if score @s fartcraft.sneaking matches 8 run scoreboard players remove @s fartcraft.last_defication 25

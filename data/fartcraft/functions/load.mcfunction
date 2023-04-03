@@ -17,7 +17,6 @@ scoreboard players set #cons.rng_a fartcraft.data 1103515245
 
 # Planned additions:
 # Fart Disperser
-# Fart Consentrator (makes weaponized farts)
 # Toilet
 
 # Fart Trap

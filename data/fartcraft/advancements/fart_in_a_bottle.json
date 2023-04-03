@@ -1,0 +1,29 @@
+{
+    "parent": "fartcraft:player_fart",
+    "display": {
+        "title": {
+            "translate": "advancements.fartcraft.fart_in_a_bottle.title"
+        },
+        "description": {
+            "translate": "advancements.fartcraft.fart_in_a_bottle.desc"
+        },
+        "icon": {
+            "item": "minecraft:snowball",
+            "nbt": "{CustomModelData:6420500}"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "have_fart_in_a_tobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+					    "id": "minecraft:snowball",
+                        "nbt": "{fartcraft:{id:\"fart_in_a_bottle\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

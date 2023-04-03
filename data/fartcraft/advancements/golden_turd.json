@@ -1,0 +1,31 @@
+{
+    "parent": "fartcraft:turd",
+    "display": {
+        "title": {
+            "translate": "advancements.fartcraft.golden_turd.title"
+        },
+        "description": {
+            "translate": "advancements.fartcraft.golden_turd.desc"
+        },
+        "icon": {
+            "item": "minecraft:snowball",
+            "nbt": "{CustomModelData:6420502}"
+        },
+		"hidden": true,
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "have_fart_in_a_tobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+					    "id": "minecraft:snowball",
+                        "nbt": "{fartcraft:{id:\"golden_turd\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

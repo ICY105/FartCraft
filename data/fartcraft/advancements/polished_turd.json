@@ -1,0 +1,29 @@
+{
+    "parent": "fartcraft:turd_polisher",
+    "display": {
+        "title": {
+            "translate": "advancements.fartcraft.polished_turd.title"
+        },
+        "description": {
+            "translate": "advancements.fartcraft.polished_turd.desc"
+        },
+        "icon": {
+            "item": "minecraft:pufferfish",
+            "nbt": "{CustomModelData:6420500}"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "have_fart_in_a_tobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+					    "id": "minecraft:pufferfish",
+                        "nbt": "{fartcraft:{id:\"polished_turd\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

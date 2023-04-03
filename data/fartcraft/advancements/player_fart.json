@@ -1,0 +1,22 @@
+{
+    "parent": "fartcraft:fartcraft",
+    "display": {
+        "title": {
+            "translate": "advancements.fartcraft.player_fart.title"
+        },
+        "description": {
+            "translate": "advancements.fartcraft.player_fart.desc"
+        },
+        "icon": {
+            "item": "minecraft:snowball",
+            "nbt": "{CustomModelData:6420503}"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

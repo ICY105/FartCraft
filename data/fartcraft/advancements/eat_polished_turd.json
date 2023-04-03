@@ -1,0 +1,31 @@
+{
+    "parent": "fartcraft:polished_turd",
+    "display": {
+        "title": {
+            "translate": "advancements.fartcraft.eat_polished_turd.title"
+        },
+        "description": {
+            "translate": "advancements.fartcraft.eat_polished_turd.desc"
+        },
+        "icon": {
+            "item": "minecraft:pufferfish",
+            "nbt": "{CustomModelData:6420501}"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+		"hidden": true,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "have_fart_in_a_tobble": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "items": [{
+					    "id": "minecraft:pufferfish",
+                        "nbt": "{fartcraft:{id:\"polished_turd\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

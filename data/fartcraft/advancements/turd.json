@@ -1,0 +1,29 @@
+{
+    "parent": "fartcraft:player_fart",
+    "display": {
+        "title": {
+            "translate": "advancements.fartcraft.turd.title"
+        },
+        "description": {
+            "translate": "advancements.fartcraft.turd.desc"
+        },
+        "icon": {
+            "item": "minecraft:snowball",
+            "nbt": "{CustomModelData:6420501}"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "have_fart_in_a_tobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+					    "id": "minecraft:snowball",
+                        "nbt": "{fartcraft:{id:\"turd\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

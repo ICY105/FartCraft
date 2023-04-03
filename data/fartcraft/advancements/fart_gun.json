@@ -1,0 +1,30 @@
+{
+    "parent": "fartcraft:basic_fart_tank",
+    "display": {
+        "title": {
+            "translate": "advancements.fartcraft.fart_gun.title"
+        },
+        "description": {
+            "translate": "advancements.fartcraft.fart_gun.desc"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:6420503}"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "frame": "goal"
+    },
+    "criteria": {
+        "have_fart_in_a_tobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+					    "id": "minecraft:carrot_on_a_stick",
+                        "nbt": "{fartcraft:{id:\"fart_gun\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

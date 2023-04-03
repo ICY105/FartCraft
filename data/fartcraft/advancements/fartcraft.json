@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.fartcraft.title"
+        },
+        "description": {
+            "translate": "advancements.fartcraft.desc"
+        },
+        "icon": {
+            "item": "minecraft:snowball",
+            "nbt": "{CustomModelData:6420503}"
+        },
+        "background": "fartcraft:textures\/block\/bricks.png",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "always": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
