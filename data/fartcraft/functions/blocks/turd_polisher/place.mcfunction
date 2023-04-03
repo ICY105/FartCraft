@@ -1,6 +1,6 @@
 
 setblock ~ ~ ~ minecraft:stone_slab
-summon interaction ~ ~-0.499 ~ {Tags:["fartcraft", "fartcraft.ticking", "fartcraft.turd_polisher"], width:1.01f, height:1.01f, Passengers:[{id:"minecraft:item_display", Tags:["fartcraft", "fartcraft.turd_polisher.model", "fartcraft.new", "energy.receive"],item:{id:"minecraft:furnace", Count:1b, tag:{CustomModelData:6420502}}},{id:"minecraft:item_display", Tags:["fartcraft", "fartcraft.turd_polisher.item_holder"], item:{}}]}
+summon interaction ~ ~-0.499 ~ {Tags:["fartcraft", "fartcraft.ticking", "fartcraft.turd_polisher"], width:1.01f, height:0.55f, Passengers:[{id:"minecraft:item_display", Tags:["fartcraft", "fartcraft.turd_polisher.model", "fartcraft.new", "energy.receive"],item:{id:"minecraft:furnace", Count:1b, tag:{CustomModelData:6420502}}},{id:"minecraft:item_display", Tags:["fartcraft", "fartcraft.turd_polisher.item_holder"], item:{}}]}
 
 scoreboard players set @e[type=item_display,tag=fartcraft.new,distance=..1] energy.storage 0
 scoreboard players set @e[type=item_display,tag=fartcraft.new,distance=..1] energy.max_storage 4
