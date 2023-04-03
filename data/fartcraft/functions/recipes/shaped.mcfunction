@@ -35,3 +35,6 @@ execute if score @s smithed.data matches 0 store result score @s smithed.data if
 # Fart Fan
 execute if score @s smithed.data matches 0 store result score @s smithed.data if data storage smithed.crafter:input recipe{0:[{tag:{fartcraft:{id:"turd"}}, Slot:0b},{tag:{fartcraft:{id:"turd"}}, Slot:1b},{tag:{fartcraft:{id:"turd"}}, Slot:2b}],1:[{id:"minecraft:iron_bars", Slot:0b},{tag:{fartcraft:{id:"fan"}}, Slot:1b},{tag:{fartcraft:{id:"turd"}}, Slot:2b}],2:[{tag:{fartcraft:{id:"turd"}}, Slot:0b},{tag:{fartcraft:{id:"turd"}}, Slot:1b},{tag:{fartcraft:{id:"turd"}}, Slot:2b}]} run loot replace block ~ ~ ~ container.16 loot fartcraft:fart_fan
 
+# Fart Gun
+execute if score @s smithed.data matches 0 store result score @s smithed.data if data storage smithed.crafter:input recipe{0:[{tag:{fartcraft:{id:"polished_turd"}}, Slot:0b},{id:"minecraft:glass", Slot:1b},{id:"minecraft:glass", Slot:2b}],1:[{tag:{fartcraft:{id:"fan"}}, Slot:0b},{tag:{fartcraft:{id:"polished_turd"}}, Slot:1b},{tag:{fartcraft:{id:"polished_turd"}}, Slot:2b}],2:[{tag:{fartcraft:{id:"polished_turd"}}, Slot:0b},{id:"minecraft:stone_button", Slot:1b},{tag:{fartcraft:{id:"polished_turd"}}, Slot:2b}]} run loot replace block ~ ~ ~ container.16 loot fartcraft:fart_gun
+

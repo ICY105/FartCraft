@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {"translate": "item.fartcraft.pooper_scooper", "italic": false}
+              "name": {"translate": "item.fartcraft.fart_gun", "italic": false}
             },
 			{
 			  "function": "minecraft:set_lore",
@@ -20,7 +20,7 @@
 			},
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6420502, fartcraft:{id:\"pooper_scooper\"}, player_action:{click_detection:1b}}"
+              "tag": "{CustomModelData:6420503, fartcraft:{id:\"fart_gun\"} }"
             }
           ]
         }

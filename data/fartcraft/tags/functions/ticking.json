@@ -2,6 +2,7 @@
 	"required":false,
 	"values": [
 		"fartcraft:entities/tick",
-		"fartcraft:blocks/tick"
+		"fartcraft:blocks/tick",
+		"fartcraft:items/tick"
 	]
 } 
