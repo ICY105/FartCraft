@@ -29,3 +29,9 @@ execute if score @s smithed.data matches 0 store result score @s smithed.data if
 # Fart Collector
 execute if score @s smithed.data matches 0 store result score @s smithed.data if data storage smithed.crafter:input recipe{0:[{tag:{fartcraft:{id:"polished_turd"}}, Slot:0b},{id:"minecraft:iron_bars", Slot:1b},{tag:{fartcraft:{id:"polished_turd"}}, Slot:2b}],1:[{id:"minecraft:iron_bars", Slot:0b},{tag:{fartcraft:{id:"fan"}}, Slot:1b},{id:"minecraft:iron_bars", Slot:2b}],2:[{tag:{fartcraft:{id:"polished_turd"}}, Slot:0b},{id:"minecraft:iron_bars", Slot:1b},{tag:{fartcraft:{id:"polished_turd"}}, Slot:2b}]} run loot replace block ~ ~ ~ container.16 loot fartcraft:fart_collector
 
+# Advanced Fart Tank
+execute if score @s smithed.data matches 0 store result score @s smithed.data if data storage smithed.crafter:input recipe{0:[{tag:{fartcraft:{id:"polished_turd"}}, Slot:0b},{id:"minecraft:diamond", Slot:1b},{tag:{fartcraft:{id:"polished_turd"}}, Slot:2b}],1:[{id:"minecraft:diamond", Slot:0b},{tag:{fartcraft:{id:"basic_fart_tank"}}, Slot:1b},{id:"minecraft:diamond", Slot:2b}],2:[{tag:{fartcraft:{id:"polished_turd"}}, Slot:0b},{id:"minecraft:diamond", Slot:1b},{tag:{fartcraft:{id:"polished_turd"}}, Slot:2b}]} run loot replace block ~ ~ ~ container.16 loot fartcraft:advanced_fart_tank
+
+# Fart Fan
+execute if score @s smithed.data matches 0 store result score @s smithed.data if data storage smithed.crafter:input recipe{0:[{tag:{fartcraft:{id:"turd"}}, Slot:0b},{tag:{fartcraft:{id:"turd"}}, Slot:1b},{tag:{fartcraft:{id:"turd"}}, Slot:2b}],1:[{id:"minecraft:iron_bars", Slot:0b},{tag:{fartcraft:{id:"fan"}}, Slot:1b},{tag:{fartcraft:{id:"turd"}}, Slot:2b}],2:[{tag:{fartcraft:{id:"turd"}}, Slot:0b},{tag:{fartcraft:{id:"turd"}}, Slot:1b},{tag:{fartcraft:{id:"turd"}}, Slot:2b}]} run loot replace block ~ ~ ~ container.16 loot fartcraft:fart_fan
+

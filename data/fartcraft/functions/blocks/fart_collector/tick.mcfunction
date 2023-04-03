@@ -1,2 +1,2 @@
 
-execute unless block ~ ~ ~ minecraft:barrier run function fartcraft:blocks/turd_polisher/break
+execute unless block ~ ~ ~ minecraft:barrier run function fartcraft:blocks/fart_collector/break
