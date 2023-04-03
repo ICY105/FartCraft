@@ -11,4 +11,7 @@ execute if score #rot fartcraft.data matches 2 if score #motion fartcraft.data m
 execute if score #rot fartcraft.data matches 0..1 store result entity @s Motion[0] double 0.01 run scoreboard players get #motion fartcraft.data
 execute if score #rot fartcraft.data matches 2..3 store result entity @s Motion[2] double 0.01 run scoreboard players get #motion fartcraft.data
 
-
+effect give @s weakness 5
+effect give @s slowness 5
+effect give @s mining_fatigue 5
+effect give @s nausea 5
