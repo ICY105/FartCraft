@@ -20,11 +20,10 @@
         "have_fart_in_a_tobble": {
             "trigger": "minecraft:consume_item",
             "conditions": {
-                "items": [{
+                "item": {
 					    "id": "minecraft:pufferfish",
                         "nbt": "{fartcraft:{id:\"polished_turd\"}}"
                     }
-                ]
             }
         }
     }
