@@ -5,3 +5,4 @@ execute if entity @s[tag=fartcraft.fart_tank.advanced] run function fartcraft:bl
 execute if entity @s[tag=fartcraft.turd_polisher] run function fartcraft:blocks/turd_polisher/tick
 execute if entity @s[tag=fartcraft.fart_collector] run function fartcraft:blocks/fart_collector/tick
 execute if entity @s[tag=fartcraft.fart_fan] run function fartcraft:blocks/fart_fan/tick
+execute if entity @s[tag=fartcraft.fart_disperser] run function fartcraft:blocks/fart_disperser/tick

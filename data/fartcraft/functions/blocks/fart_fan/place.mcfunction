@@ -15,5 +15,3 @@ execute as @e[type=item_display,tag=fartcraft.new,distance=..1] run data modify 
 execute as @e[type=item_display,tag=fartcraft.new,distance=..1] run data modify entity @s transformation.translation set value [0f, 0.5f, 0f]
 
 tag @e[type=item_display,tag=fartcraft.new,distance=..1] remove fartcraft.new
-
-execute as @e[type=item_display,tag=fartcraft.turd_polisher.item_holder,distance=..1] run data modify entity @s transformation.translation set value [0f, 1.0f, 0f]

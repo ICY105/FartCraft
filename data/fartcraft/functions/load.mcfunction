@@ -14,10 +14,3 @@ scoreboard players add #cons.seed fartcraft.data 0
 scoreboard players set #cons.-1 fartcraft.data -1
 scoreboard players set #cons.100 fartcraft.data 100
 scoreboard players set #cons.rng_a fartcraft.data 1103515245
-
-# Planned additions:
-# Fart Disperser
-# Toilet
-
-# Fart Trap
-# Fartpack

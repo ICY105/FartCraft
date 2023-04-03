@@ -5,4 +5,5 @@ execute if data storage smithed.custom_block:main blockApi{id:"fartcraft:advance
 execute if data storage smithed.custom_block:main blockApi{id:"fartcraft:turd_polisher"} run function fartcraft:blocks/turd_polisher/place
 execute if data storage smithed.custom_block:main blockApi{id:"fartcraft:fart_collector"} run function fartcraft:blocks/fart_collector/place
 execute if data storage smithed.custom_block:main blockApi{id:"fartcraft:fart_fan"} run function fartcraft:blocks/fart_fan/place
+execute if data storage smithed.custom_block:main blockApi{id:"fartcraft:fart_disperser"} run function fartcraft:blocks/fart_disperser/place
 
