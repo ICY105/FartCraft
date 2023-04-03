@@ -1,15 +1,15 @@
 
 scoreboard players set #delay fartcraft.data 0
 
-scoreboard players set #rng.in fartcraft.data 60
+scoreboard players set #rng.in fartcraft.data 30
 function fartcraft:utils/random
 scoreboard players operation #delay fartcraft.data += #rng.out fartcraft.data
 
-scoreboard players set #rng.in fartcraft.data 60
+scoreboard players set #rng.in fartcraft.data 30
 function fartcraft:utils/random
 scoreboard players operation #delay fartcraft.data += #rng.out fartcraft.data
 
-scoreboard players set #rng.in fartcraft.data 60
+scoreboard players set #rng.in fartcraft.data 30
 function fartcraft:utils/random
 scoreboard players operation #delay fartcraft.data += #rng.out fartcraft.data
 
